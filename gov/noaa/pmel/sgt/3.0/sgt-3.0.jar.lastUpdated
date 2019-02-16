@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Feb 16 12:55:48 UTC 2019
+https\://oss.sonatype.org/content/repositories/releases/.error=
+http\://repo.maven.apache.org/maven2/.lastUpdated=1550321748628
+file\://${project.basedir}/lib/.error=
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1550321748876
+http\://repo.maven.apache.org/maven2/.error=
+file\://${project.basedir}/lib/.lastUpdated=1550321748695

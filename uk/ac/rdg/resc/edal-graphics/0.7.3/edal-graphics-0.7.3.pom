@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- POM for core module -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>edal</artifactId>
+		<groupId>uk.ac.rdg.resc</groupId>
+		<relativePath>..</relativePath>
+		<version>0.7.3</version>
+	</parent>
+	<artifactId>edal-graphics</artifactId>
+	<packaging>jar</packaging>
+	<name>Graphics library for plotting EDAL core data types</name>
+	<dependencies>
+		<dependency>
+			<groupId>uk.ac.rdg.resc</groupId>
+			<artifactId>edal-core</artifactId>
+			<version>${project.version}</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>uk.ac.rdg.resc</groupId>
+			<artifactId>edal-impl</artifactId>
+			<version>${project.version}</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.14</version>
+		</dependency>
+		<dependency>
+			<groupId>gov.noaa.pmel</groupId>
+			<artifactId>sgt</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.monte</groupId>
+			<artifactId>monte</artifactId>
+			<version>0.7.3</version>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>lib</id>
+			<name>lib</name>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>file://${project.basedir}/lib</url>
+		</repository>
+        <repository>
+	        <id>releases</id>
+	        <name>Releases</name>
+	        <url>https://oss.sonatype.org/content/repositories/releases</url>
+        </repository>
+	</repositories>
+</project>
+

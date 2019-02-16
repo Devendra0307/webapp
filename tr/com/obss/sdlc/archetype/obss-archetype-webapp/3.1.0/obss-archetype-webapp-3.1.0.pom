@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>tr.com.obss.sdlc.archetype</groupId>
+	<artifactId>obss-archetype-webapp</artifactId>
+	<version>3.1.0</version>
+	
+	<packaging>maven-archetype</packaging>  
+	<name>OBSS Java Web Application Archetype</name>
+	<description>This archetype provides a skelton for the Java Web Application packages.</description>
+
+	<parent>
+		<groupId>tr.com.obss.sdlc.pom</groupId>
+		<artifactId>root-pom-archetype</artifactId>
+		<version>3.1.0</version>
+	</parent>
+</project>
